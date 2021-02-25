@@ -28,6 +28,70 @@
 		"李孟儒說，要有光，就有了光。李孟儒看光是好的，就把光和暗分開。",
 		"起初，李孟儒創造天地。地是空虛渾沌，淵面黑暗，李孟儒的靈運行在水面上。" 
 		]
+      },
+	  {
+	  {
+	  "chack": ["TEST"],
+  "type": "bubble",
+  "direction": "ltr",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Header",
+        "align": "start",
+        "contents": [
+          {
+            "type": "span",
+            "text": "實習題目列表",
+            "size": "xl",
+            "weight": "bold"
+          }
+        ]
       }
+    ]
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "請選擇實習題目觀看解法",
+        "flex": null,
+        "align": "start",
+        "contents": []
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "position": "relative",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "實習題目連結",
+          "uri": "https://linecorp.com"
+        }
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "實習題目連結2",
+          "uri": "https://linecorp.com"
+        },
+        "gravity": "bottom"
+      }
+    ]
+  }
+}
+	  }
+
 
     ]
